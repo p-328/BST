@@ -1,0 +1,10 @@
+﻿Insert root, key:
+	tree is at end?
+		make a new node, assign to root
+		stop function
+	no? continue
+	val less than key?
+		advance to left subtree
+	no?
+		advance to right subtree
+	again
