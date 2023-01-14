@@ -31,7 +31,7 @@ static bool Search(BinSTree? root, int val)
     else if (val > root.data) Search(root.right, val);
     return false;
 }
-
+// Test code
 BinSTree? root = new(1);
 for (int i = 0; i < 100; i++)
 {
